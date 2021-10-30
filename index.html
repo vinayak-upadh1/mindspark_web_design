@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>bootstrap 4 landing page with slider</title>
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- style.css -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- jquery cdn -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.4.1.js"
+    ></script>
+    <!-- ajx  -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    
+
+    
+  </head>
+  <body>
+
+    <div class="container">
+      <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Vinayak</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#work" class="nav_link">Work</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- slider banner	 -->
+
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="info">
+                <h1>Techno start</h1>
+                <p>Building the future with tech, gear, and software.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="info">
+                <h1>Techno start</h1>
+                <p>Building the future with tech, gear, and software.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="info">
+                <h1>Techno start</h1>
+                <p>Building the future with tech, gear, and software.</p>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+	<div class="services" id="services">
+    <br>
+    <br>
+    <br>
+    <br>
+      <div class="wrapper">
+        <div class="box">
+          <div class="front-face">
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <span>Progressive web application</span>
+          </div>
+          <div class="back-face">
+            <span><a href="https://ionic.io/resources/articles/what-is-cross-platform-app-development" target="_blank" rel="noopener noreferrer">Progressive web application</a></span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem in
+              deleniti vitae beatae veritatis aliquid porro perspiciatis dolores
+              impedit ad.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="front-face">
+            <div class="icon">
+			  <i class="fas fa-cogs"></i>
+            </div>
+            <span>Technology Migration</span>
+          </div>
+          <div class="back-face">
+            <span><a href="https://medium.com/@arunabhabluecop/technology-migration-whats-the-rea
+				l-scoop-behind-b72f534e36d4" target="_blank" rel="noopener noreferrer">Technology Migration</a></span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem in
+              deleniti vitae beatae veritatis aliquid porro perspiciatis dolores
+              impedit ad.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="front-face">
+            <div class="icon">
+				<i class="fab fa-android"></i>
+            </div>
+            <span>Cross Platform Mobile App</span>
+          </div>
+          <div class="back-face">
+            <span><a href="https://ionic.io/resources/articles/what-is-cross-platform-app-development" target="_blank" rel="noopener noreferrer">Cross Platform Mobile App</a></span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem in
+              deleniti vitae beatae veritatis aliquid porro perspiciatis dolores
+              impedit ad.
+            </p>
+          </div>
+        </div>
+      </div>
+	</div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>TechnoStart</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#services">our services</a></li>
+              <li><a href="#">About us</a></li>
+              
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- scripts -->
+    <!-- bootstrap javascript cdn -->
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    ></script>
+  </body>
+</html>
