@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 	<!-- style.css -->
 	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" href="a.css">
 	<!-- jquery cdn -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
       <!-- ajx  -->
@@ -16,6 +17,27 @@
 
 </head>
 <body>
+	<header class="l-header">
+		<nav class="nav bd-grid">
+			<div>
+				<a href="#" class="nav__logo">TechnoStart</a>
+			</div>
+
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+					<li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+					<li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+					<li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+				</ul>
+			</div>
+
+			<div class="nav__toggle" id="nav-toggle">
+				<i class='bx bx-menu'></i>
+			</div>
+		</nav>
+	</header>
 
 	<div class="container-fluid">
 		<div class="row">
@@ -58,6 +80,74 @@
 			</div>
 		</div>
 	</div>
+
+	<section class="work section" id="work">
+		<h2 class="section-title">Work</h2>
+
+		<div class="work__container bd-grid">
+			<div class="work__img">
+				<figure class="captionEffect" data-effect="fade-in">
+					<a href="https://vinayak-upadh1.github.io/music.github.io/"><img src="images/work1.jpg" alt=""></a>
+					<figcaption>
+					  <h3>Listen Music</h3>
+					</figcaption>
+				  </figure>
+			</div>
+			<div class="work__img">
+				<figure class="captionEffect" data-effect="fade-in">
+					<img src="images/work2.jpg" alt="">
+					<figcaption>
+					  <h3>Smartphone Features</h3>
+					</figcaption>
+				  </figure>
+			</div>
+			<div class="work__img">
+				<figure class="captionEffect" data-effect="fade-in">
+					<img src="images/work3.jpg" alt="">
+					<figcaption>
+					  <h3>Taj Mahal Wikipidea Clone</h3>
+					</figcaption>
+				  </figure>
+			</div>
+			<div class="work__img">
+				<figure class="captionEffect" data-effect="fade-in">
+					<img src="images/work4.jpg" alt="">
+					<figcaption>
+					  <h3>Jupiter-Mail</h3>
+					</figcaption>
+				  </figure>
+			</div>
+			<div class="work__img">
+				<figure class="captionEffect" data-effect="fade-in">
+					<img src="images/work5.jpg" alt="">
+					<figcaption>
+					  <h3>Vaccination Drive</h3>
+					</figcaption>
+				  </figure>
+			</div>
+			<div class="work__img">
+				<figure class="captionEffect" data-effect="fade-in">
+					<img src="images/work6.jpg" alt="">
+					<figcaption>
+					  <h3>Analogue Clock</h3>
+					</figcaption>
+				  </figure>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact section" id="contact">
+		<h2 class="section-title">Contact</h2>
+
+		<div class="contact__container bd-grid">
+			<form action="" class="contact__form">
+				<input type="text" placeholder="Name" class="contact__input" required>
+				<input type="Email" placeholder="Email" class="contact__input" required>
+				<textarea name="" id="" cols="0" rows="10" class="contact__input" required></textarea>
+				<input type="button" value="Send" class="contact__button button">
+			</form>
+		</div>
+	</section>
 
 	<footer class="footer">
 		<div class="container">
